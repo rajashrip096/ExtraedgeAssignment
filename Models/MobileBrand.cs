@@ -16,6 +16,6 @@ namespace ExtraedgeAssignment.Models
         public int ModelNo { get; set; }
         public int Price { get; set; }
         public int Discount { get; set; }
-        public string FromToDate { get; set; }
+        
     }
 }
