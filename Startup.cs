@@ -37,7 +37,7 @@ namespace ExtraedgeAssignment
             services.AddScoped<IMobileBrandRepository, MobileBrandRepository>();
             services.AddScoped<IMobileBrandService, MobileBrandService>();
             services.AddScoped<IOrderPlaceRepository, OrderPlaceRepository>();
-            services.AddScoped<IOrderPlaceService, IOrderPlaceService>();
+            services.AddScoped<IOrderPlaceService, OrderPlaceService>();
 
             // configuration with DB
             services.AddDbContextPool<ApplicationDbContext>(options =>

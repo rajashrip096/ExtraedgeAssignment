@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExtraedgeAssignment.Services
 {
-    public class OrderPlaceService
+    public class OrderPlaceService:IOrderPlaceService
     {
         private readonly IOrderPlaceRepository _repo;
         public OrderPlaceService(IOrderPlaceRepository repo)
